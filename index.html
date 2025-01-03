@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="with= device -width,  initial- scale=1.0">
+    <title>Universty Website Design - Easy turtorial </title>
+    <link rel="stylesheet" href="style.css">
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous"></head>
+<body>
+    <section class="header">
+<nav>
+    <a href="index.html"><img src="images/download (1).jpg"/></a> 
+    <div class="nav-links"id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+ <ul>
+    <li><a href="">HOME</a></li>
+    <li><a href="">ABOUT</a></li>
+    <li><a href="">COURSE</a></li>
+    <li><a href="">BLOG</a></li>
+    <li><a href="">CONTACT</a></li>
+ </ul>
+    </div>
+    <i class="fa fa-bars"onclick="showMenu()" ></i>
+</nav>
+
+
+<div class="text-box">
+<h1>World's Biggest Universty</h1>
+<p>Making website is the most easiest thing in the world. You just need to learn html ,css ,<br> javascriptand.You are good to good</p>
+<a href=""class="hero-btn">Visit Us To Know More</a>
+
+</div>
+ </section>
+
+<!------course------->
+
+<section class="course">
+<h1>courses We offer</h1>
+<p>lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+</section>
+
+
+
+
+
+
+
+
+------javascript for Toggle <Menu-------> 
+<script>
+    var navlinks = document.getElementById("navlinks");
+
+
+function showMenu() {
+ navlinks.style.right ="0";
+}
+function hideMenu() {
+    navlinks.style.right ="-200px";
+}
+    
+
+</script>
+
+</body>
+</html>
+
+
